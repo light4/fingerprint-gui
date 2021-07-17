@@ -46,6 +46,6 @@ add_subdirectory(upek)
 add_subdirectory(bin)
 add_subdirectory(locales)
 
-install(FILES COPYING DESTINATION "share/doc/fingerprint-gui/")
+install(FILES LICENSE.md DESTINATION "share/doc/fingerprint-gui/")
 install(DIRECTORY DESTINATION "/var/lib/fingerprint-gui")
 install(DIRECTORY DESTINATION "/var/upek_data")
